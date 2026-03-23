@@ -1,0 +1,27 @@
+# Core
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+
+# LangChain 1.0 生态（含阿里云百炼 DashScope 支持）
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+langchain-text-splitters>=0.2.0
+langchain-community>=0.2.0
+
+# Embeddings – local sentence-transformers
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# Vector Store – Aliyun OSS V2
+alibabacloud-oss-v2>=1.0.1
+
+# Document loaders
+pymupdf>=1.24.0
+
+# Utilities
+httpx>=0.25.0
+aiofiles>=23.0.0
+openpyxl>=3.1.0
